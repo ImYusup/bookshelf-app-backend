@@ -24,6 +24,7 @@ Actually this repository related same requirement and function with [notes-app-b
         "message": "Gagal menambahkan buku. Mohon isi nama buku"
     }   
     ```
+
 **- If readPage > pageCount the server shown status code 400 and sample response body as sample shown below :**
     ```
     {
@@ -31,6 +32,7 @@ Actually this repository related same requirement and function with [notes-app-b
         "message": "Gagal menambahkan buku. readPage tidak boleh lebih besar dari pageCount"
     }
     ```
+
 **- If fail to create the book, server shown status code 500 and sample response body as sample shown below :**
     ```
     {
@@ -38,6 +40,7 @@ Actually this repository related same requirement and function with [notes-app-b
         "message": "Buku gagal ditambahkan"
     }
     ```
+
 **- If success the server shown status code 201 and sample response body as sample shown below :**
     ```
     {
@@ -75,6 +78,7 @@ Actually this repository related same requirement and function with [notes-app-b
         }
     }
     ```
+
 **- If no book created before, the server shown empty array as sample shown below :**
     ```
     {
@@ -93,6 +97,7 @@ Actually this repository related same requirement and function with [notes-app-b
         "message": "Buku tidak ditemukan"
     }
     ```
+
 **- If id is available, the server have shown status code 200 and sample response body as sample shown below :**
     ```
     {
@@ -115,6 +120,7 @@ Actually this repository related same requirement and function with [notes-app-b
         }   
     }
     ```
+
 **- Get query details book as shown below request. (Optional : adding challenge).**
     - ?name (non-case sensitive).
     - ?reading(no reading === 0 and reading === 1).
@@ -141,6 +147,7 @@ Actually this repository related same requirement and function with [notes-app-b
         "message": "Gagal memperbarui buku. Mohon isi nama buku"
     }
     ```
+
 **- If client attach readPage > pageCount, the server shown status code 400 and sample response body as sample shown below :**
     ```
     {
@@ -148,6 +155,7 @@ Actually this repository related same requirement and function with [notes-app-b
         "message": "Gagal memperbarui buku. readPage tidak boleh lebih besar dari pageCount"
     }
     ```
+
 **-   If no available id, the server have shown status code 404 and sample response body as sample shown below :**
     ```
     {   
@@ -155,6 +163,7 @@ Actually this repository related same requirement and function with [notes-app-b
         "message": "Gagal memperbarui buku. Id tidak ditemukan"
     }
     ```
+
 **-  If updated success the server shown status code 200 and sample response body as sample shown below :**
     ```
     {
@@ -171,6 +180,7 @@ Actually this repository related same requirement and function with [notes-app-b
         "message": "Buku gagal dihapus. Id tidak ditemukan"
     }
     ```
+    
 **-  If id available but have book created, the server have shown status code 200 and sample response body as sample shown below :**
     ```
     {
@@ -180,4 +190,4 @@ Actually this repository related same requirement and function with [notes-app-b
     ```
 
 
-**[Demo here](https://drive.google.com/file/d/1LyYTlZmgi_J94ymjUS-4_msz3GcR4bs8/view?usp=sharing) using screen video recorder automated testing by postman.**
+## **[Demo here](https://drive.google.com/file/d/1LyYTlZmgi_J94ymjUS-4_msz3GcR4bs8/view?usp=sharing) using screen video recorder automated testing by postman.**
