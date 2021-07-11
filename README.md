@@ -75,6 +75,7 @@ Actually this repository related same requirement and function with [notes-app-b
         }
     }
     ```
+
     - If no book created before, the server shown empty array as sample shown below :
     ```
     {
@@ -93,6 +94,7 @@ Actually this repository related same requirement and function with [notes-app-b
         "message": "Buku tidak ditemukan"
     }
     ```
+
     - If id is available, the server have shown status code 200 and sample response body as sample shown below :
     ```
     {
@@ -115,6 +117,7 @@ Actually this repository related same requirement and function with [notes-app-b
         }   
     }
     ```
+    
     - Get query details book as shown below request. (Optional : adding challenge).
         - ?name (non-case sensitive).
         - ?reading(no reading === 0 and reading === 1).
