@@ -96,7 +96,7 @@ Actually this repository related same requirement and function with [notes-app-b
     ```
 
 **4. Get shown details book per id.**
-**- If no available id, the server have shown status code 404 and sample response body as sample shown below :**
+**- If no available id, the server shown status code 404 and sample response body as sample shown below :**
     
     ```
     {
@@ -105,7 +105,7 @@ Actually this repository related same requirement and function with [notes-app-b
     }
     ```
 
-**- If id is available, the server have shown status code 200 and sample response body as sample shown below :**
+**- If id is available, the server shown status code 200 and sample response body as sample shown below :**
     
     ```
     {
@@ -167,7 +167,7 @@ Actually this repository related same requirement and function with [notes-app-b
     }
     ```
 
-**- If no available id, the server have shown status code 404 and sample response body as sample shown below :**
+**- If no available id, the server shown status code 404 and sample response body as sample shown below :**
     
     ```
     {   
@@ -187,7 +187,7 @@ Actually this repository related same requirement and function with [notes-app-b
 
 **6. Deleted book per id.**
 
-**- If id available but no book created, the server have shown status code 404 and sample response body as sample shown below :**
+**- If id available but no book created, the server shown status code 404 and sample response body as sample shown below :**
     
     ```
     {
@@ -196,7 +196,7 @@ Actually this repository related same requirement and function with [notes-app-b
     }
     ```
 
-**- If id available but have book created, the server have shown status code 200 and sample response body as sample shown below :**
+**- If id available but have book created, the server shown status code 200 and sample response body as sample shown below :**
     
     ```
     {
