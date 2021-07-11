@@ -1,6 +1,6 @@
 # Bookshelf-App-Backend
 
-Actually this repository related same requirement and function with https://bit.ly/2Vkg4mv with adding some challenge featured like as :
+Actually this repository related same requirement and function with [notes-app-back-end] (https://bit.ly/2Vkg4mv) with adding some challenge featured like as :
 
 **1. All prerequisites have installed properly.**
 
@@ -18,7 +18,7 @@ Actually this repository related same requirement and function with https://bit.
 }
 ```
 
-    2a. If fail the server shown status code 400 and sample response body as sample shown below :
+    **2a. If fail the server shown status code 400 and sample response body as sample shown below :**
     ```
     {
         "status": "fail",
@@ -26,7 +26,7 @@ Actually this repository related same requirement and function with https://bit.
     }   
     ```
 
-    2b. If readPage > pageCount the server shown status code 400 and sample response body as sample shown below :
+    **2b. If readPage > pageCount the server shown status code 400 and sample response body as sample shown below :**
     ```
     {
         "status": "fail",
@@ -34,7 +34,7 @@ Actually this repository related same requirement and function with https://bit.
     }
     ```
 
-    2c. If fail to create the book, server shown status code 500 and sample response body as sample shown below :
+    **2c. If fail to create the book, server shown status code 500 and sample response body as sample shown below :**
     ```
     {
         "status": "error",
@@ -42,7 +42,7 @@ Actually this repository related same requirement and function with https://bit.
     }
     ```
 
-    2d. If success the server shown status code 201 and sample response body as sample shown below :
+    **2d. If success the server shown status code 201 and sample response body as sample shown below :**
     ```
     {
         "status": "success",
@@ -54,7 +54,7 @@ Actually this repository related same requirement and function with https://bit.
     ```
 
 **3. Get shown all books have created before.**
-    3a.  The server have returned status code 200 and sample response body as sample shown below :
+    **3a.  The server have returned status code 200 and sample response body as sample shown below :**
     ```
     {
         "status": "success",
@@ -80,7 +80,7 @@ Actually this repository related same requirement and function with https://bit.
     }
     ```
 
-    3b.  If no book created before, the server shown empty array as sample shown below :
+    **3b.  If no book created before, the server shown empty array as sample shown below :**
     ```
     {
     "status": "success",
@@ -91,14 +91,15 @@ Actually this repository related same requirement and function with https://bit.
     ```
 
 **4. Get shown details book per id.**
-    4a.  If no available id, the server have shown status code 404 and sample response body as sample shown below :
+    **4a.  If no available id, the server have shown status code 404 and sample response body as sample shown below :**
     ```
     {
         "status": "fail",
         "message": "Buku tidak ditemukan"
     }
     ```
-    4b. If id is available, the server have shown status code 200 and sample response body as sample shown below : 
+
+    **4b. If id is available, the server have shown status code 200 and sample response body as sample shown below :**
     ```
     {
     "status": "success",
@@ -120,6 +121,7 @@ Actually this repository related same requirement and function with https://bit.
         }   
     }
     ```
+    
     4c. Get query details book as shown below request. (Optional : adding challenge).
         - ?name (non-case sensitive).
         - ?reading(no reading === 0 and reading === 1).
@@ -139,7 +141,7 @@ Actually this repository related same requirement and function with https://bit.
 }
 ```
 
-    5a. If client can't attach name and request body, the server shown status code 400 and sample response body as sample shown below :  
+    **5a. If client can't attach name and request body, the server shown status code 400 and sample response body as sample shown below :**  
     ```
     {
         "status": "fail",
@@ -147,7 +149,7 @@ Actually this repository related same requirement and function with https://bit.
     }
     ```
 
-    5b. If client attach readPage > pageCount, the server shown status code 400 and sample response body as sample shown below :
+    **5b. If client attach readPage > pageCount, the server shown status code 400 and sample response body as sample shown below :**
     ```
     {
         "status": "fail",
@@ -155,7 +157,7 @@ Actually this repository related same requirement and function with https://bit.
     }
     ```
 
-    5c.  If no available id, the server have shown status code 404 and sample response body as sample shown below :
+    **5c.  If no available id, the server have shown status code 404 and sample response body as sample shown below :**
     ```
     {   
         "status": "fail",
@@ -163,7 +165,7 @@ Actually this repository related same requirement and function with https://bit.
     }
     ```
 
-    5d. If updated success the server shown status code 200 and sample response body as sample shown below :
+    **5d. If updated success the server shown status code 200 and sample response body as sample shown below :**
     ```
     {
         "status": "success",
@@ -172,7 +174,7 @@ Actually this repository related same requirement and function with https://bit.
     ```
 
 **6. Deleted book per id.**
-    6a.  If id available but no book created, the server have shown status code 404 and sample response body as sample shown below :
+    **6a.  If id available but no book created, the server have shown status code 404 and sample response body as sample shown below :**
     ```
     {
         "status": "fail",
@@ -180,7 +182,7 @@ Actually this repository related same requirement and function with https://bit.
     }
     ```
 
-    6b.  If id available but have book created, the server have shown status code 200 and sample response body as sample shown below :
+    **6b.  If id available but have book created, the server have shown status code 200 and sample response body as sample shown below :**
     ```
     {
         "status": "success",
@@ -190,6 +192,4 @@ Actually this repository related same requirement and function with https://bit.
 
 
 **Live demo result using screen recorder video autoamated testing by postman as shown below :**
-```
-(https://bit.ly/2T111gM) 
-```
+[more details] (https://bit.ly/2T111gM) 
