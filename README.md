@@ -2,9 +2,9 @@
 
 Actually this repository related same requirement and function with https://bit.ly/2Vkg4mv with adding some challenge featured like as :
 
-1. All prerequisites have installed properly.
+**1. All prerequisites have installed properly.**
 
-2. Create this task with follow body request as shown below :
+**2. Create this task with follow body request as shown below :**
 {
     "name": string,
     "year": number,
@@ -39,7 +39,7 @@ Actually this repository related same requirement and function with https://bit.
     }
 }
 
-3. Get shown all books have created before.
+**3. Get shown all books have created before.**
 *  The server have returned status code 200 and sample response body as sample shown below :
 {
     "status": "success",
@@ -71,7 +71,7 @@ Actually this repository related same requirement and function with https://bit.
     }
 }
 
-4. Get shown details book per id.
+**4. Get shown details book per id.**
 *  If no available id, the server have shown status code 404 and sample response body as sample shown below :
 {
     "status": "fail",
@@ -103,7 +103,7 @@ Actually this repository related same requirement and function with https://bit.
   * ?reading(no reading === 0 and reading === 1).
   * ?finished(not finished === 0 and finished === 1). 
 
-5. Updated book per id as shown below request.
+**5. Updated book per id as shown below request.**
 {
     "name": string,
     "year": number,
@@ -135,7 +135,7 @@ Actually this repository related same requirement and function with https://bit.
     "message": "Buku berhasil diperbarui"
 }
 
-5. Deleted book per id.
+**6. Deleted book per id.**
 *  If id available but no book created, the server have shown status code 404 and sample response body as sample shown below :
 {
     "status": "fail",
@@ -148,6 +148,5 @@ Actually this repository related same requirement and function with https://bit.
 }
 
 
-**Live demo as shown below result :**
-1. Here's screen recorder video automated testing by postman.
+**Live demo result using screen recorder video autoamated testing by postman as shown below :**
 https://bit.ly/2T111gM 
