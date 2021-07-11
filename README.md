@@ -1,6 +1,6 @@
 # Bookshelf Backend Application
 
-Actually this repository related same requirement and function with [notes-app-back-end](https://github.com/ImYusup/notes-app-back-end) with adding some challenge featured like as :
+Actually this repository related same requirement and function with [Notes Backend Application](https://github.com/ImYusup/notes-app-back-end) with adding some challenge featured like as :
 
 **1. All prerequisites have installed properly.**
 
