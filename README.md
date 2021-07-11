@@ -2,7 +2,7 @@
 
 Actually this repository related same requirement and function with https://bit.ly/2Vkg4mv with adding some challenge featured like as :
 
-1. All prerequisites requirement have installed properly.
+1. All prerequisites have installed properly.
 
 2. Create this task with follow body request as shown below :
 {
@@ -99,9 +99,9 @@ Actually this repository related same requirement and function with https://bit.
 }
 
 * Get query details book as shown below request. (Optional : adding challenge).
-- ?name (non-case sensitive).
-- ?reading(no reading === 0 and reading === 1).
-- ?finished(not finished === 0 and finished === 1). 
+  * ?name (non-case sensitive).
+  * ?reading(no reading === 0 and reading === 1).
+  * ?finished(not finished === 0 and finished === 1). 
 
 5. Updated book per id as shown below request.
 {
