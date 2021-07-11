@@ -1,6 +1,6 @@
 # Bookshelf-App-Backend
 
-Actually this repository related same requirement and function with [notes-app-back-end] (https://bit.ly/2Vkg4mv) with adding some challenge featured like as :
+Actually this repository related same requirement and function with [notes-app-back-end](https://bit.ly/2Vkg4mv) with adding some challenge featured like as :
 
 **1. All prerequisites have installed properly.**
 
@@ -17,32 +17,28 @@ Actually this repository related same requirement and function with [notes-app-b
     "reading": boolean
 }
 ```
-
-    **2a. If fail the server shown status code 400 and sample response body as sample shown below :**
+    - If fail the server shown status code 400 and sample response body as sample shown below :
     ```
     {
         "status": "fail",
         "message": "Gagal menambahkan buku. Mohon isi nama buku"
     }   
     ```
-
-    **2b. If readPage > pageCount the server shown status code 400 and sample response body as sample shown below :**
+    - If readPage > pageCount the server shown status code 400 and sample response body as sample shown below :
     ```
     {
         "status": "fail",
         "message": "Gagal menambahkan buku. readPage tidak boleh lebih besar dari pageCount"
     }
     ```
-
-    **2c. If fail to create the book, server shown status code 500 and sample response body as sample shown below :**
+    - If fail to create the book, server shown status code 500 and sample response body as sample shown below :
     ```
     {
         "status": "error",
         "message": "Buku gagal ditambahkan"
     }
     ```
-
-    **2d. If success the server shown status code 201 and sample response body as sample shown below :**
+    - If success the server shown status code 201 and sample response body as sample shown below :
     ```
     {
         "status": "success",
@@ -54,7 +50,7 @@ Actually this repository related same requirement and function with [notes-app-b
     ```
 
 **3. Get shown all books have created before.**
-    **3a.  The server have returned status code 200 and sample response body as sample shown below :**
+    - The server have returned status code 200 and sample response body as sample shown below :
     ```
     {
         "status": "success",
@@ -79,8 +75,7 @@ Actually this repository related same requirement and function with [notes-app-b
         }
     }
     ```
-
-    **3b.  If no book created before, the server shown empty array as sample shown below :**
+    - If no book created before, the server shown empty array as sample shown below :
     ```
     {
     "status": "success",
@@ -91,15 +86,14 @@ Actually this repository related same requirement and function with [notes-app-b
     ```
 
 **4. Get shown details book per id.**
-    **4a.  If no available id, the server have shown status code 404 and sample response body as sample shown below :**
+    - If no available id, the server have shown status code 404 and sample response body as sample shown below :
     ```
     {
         "status": "fail",
         "message": "Buku tidak ditemukan"
     }
     ```
-
-    **4b. If id is available, the server have shown status code 200 and sample response body as sample shown below :**
+    - If id is available, the server have shown status code 200 and sample response body as sample shown below :
     ```
     {
     "status": "success",
@@ -121,8 +115,7 @@ Actually this repository related same requirement and function with [notes-app-b
         }   
     }
     ```
-    
-    4c. Get query details book as shown below request. (Optional : adding challenge).
+    - Get query details book as shown below request. (Optional : adding challenge).
         - ?name (non-case sensitive).
         - ?reading(no reading === 0 and reading === 1).
         - ?finished(not finished === 0 and finished === 1). 
@@ -140,32 +133,28 @@ Actually this repository related same requirement and function with [notes-app-b
     "reading": boolean
 }
 ```
-
-    **5a. If client can't attach name and request body, the server shown status code 400 and sample response body as sample shown below :**  
+    -  If client can't attach name and request body, the server shown status code 400 and sample response body as sample shown below :
     ```
     {
         "status": "fail",
         "message": "Gagal memperbarui buku. Mohon isi nama buku"
     }
     ```
-
-    **5b. If client attach readPage > pageCount, the server shown status code 400 and sample response body as sample shown below :**
+    - If client attach readPage > pageCount, the server shown status code 400 and sample response body as sample shown below :
     ```
     {
         "status": "fail",
         "message": "Gagal memperbarui buku. readPage tidak boleh lebih besar dari pageCount"
     }
     ```
-
-    **5c.  If no available id, the server have shown status code 404 and sample response body as sample shown below :**
+    -   If no available id, the server have shown status code 404 and sample response body as sample shown below :
     ```
     {   
         "status": "fail",
         "message": "Gagal memperbarui buku. Id tidak ditemukan"
     }
     ```
-
-    **5d. If updated success the server shown status code 200 and sample response body as sample shown below :**
+    -  If updated success the server shown status code 200 and sample response body as sample shown below :
     ```
     {
         "status": "success",
@@ -174,15 +163,14 @@ Actually this repository related same requirement and function with [notes-app-b
     ```
 
 **6. Deleted book per id.**
-    **6a.  If id available but no book created, the server have shown status code 404 and sample response body as sample shown below :**
+    -   If id available but no book created, the server have shown status code 404 and sample response body as sample shown below :
     ```
     {
         "status": "fail",
         "message": "Buku gagal dihapus. Id tidak ditemukan"
     }
     ```
-
-    **6b.  If id available but have book created, the server have shown status code 200 and sample response body as sample shown below :**
+    -  If id available but have book created, the server have shown status code 200 and sample response body as sample shown below :
     ```
     {
         "status": "success",
@@ -191,5 +179,4 @@ Actually this repository related same requirement and function with [notes-app-b
     ```
 
 
-**Live demo result using screen recorder video autoamated testing by postman as shown below :**
-[more details] (https://bit.ly/2T111gM) 
+**Here's result video autoamated testing by postman** [demo here](https://bit.ly/2T111gM) 
