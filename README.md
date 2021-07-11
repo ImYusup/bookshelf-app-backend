@@ -50,6 +50,7 @@ Actually this repository related same requirement and function with [notes-app-b
     ```
 
 **3. Get shown all books have created before.**
+
     - The server have returned status code 200 and sample response body as sample shown below :
     ```
     {
@@ -87,6 +88,7 @@ Actually this repository related same requirement and function with [notes-app-b
     ```
 
 **4. Get shown details book per id.**
+
     - If no available id, the server have shown status code 404 and sample response body as sample shown below :
     ```
     {
@@ -117,7 +119,7 @@ Actually this repository related same requirement and function with [notes-app-b
         }   
     }
     ```
-    
+
     - Get query details book as shown below request. (Optional : adding challenge).
         - ?name (non-case sensitive).
         - ?reading(no reading === 0 and reading === 1).
@@ -166,6 +168,7 @@ Actually this repository related same requirement and function with [notes-app-b
     ```
 
 **6. Deleted book per id.**
+
     -   If id available but no book created, the server have shown status code 404 and sample response body as sample shown below :
     ```
     {
@@ -173,6 +176,7 @@ Actually this repository related same requirement and function with [notes-app-b
         "message": "Buku gagal dihapus. Id tidak ditemukan"
     }
     ```
+    
     -  If id available but have book created, the server have shown status code 200 and sample response body as sample shown below :
     ```
     {
@@ -182,4 +186,4 @@ Actually this repository related same requirement and function with [notes-app-b
     ```
 
 
-**Here's result video autoamated testing by postman** [demo here](https://bit.ly/2T111gM) 
+**Here's result video autoamated testing by postman** [Demo here](https://bit.ly/2T111gM) 
