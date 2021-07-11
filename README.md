@@ -1,4 +1,4 @@
-# Bookshelf-App-Backend
+# Bookshelf Backend Application
 
 Actually this repository related same requirement and function with [notes-app-back-end](https://github.com/ImYusup/notes-app-back-end) with adding some challenge featured like as :
 
