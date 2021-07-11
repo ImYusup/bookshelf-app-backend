@@ -130,6 +130,7 @@ Actually this repository related same requirement and function with [notes-app-b
     ```
 
 **- Get query details book as shown below request. (Optional : adding challenge).**
+    
     - ?name (non-case sensitive).
     - ?reading(no reading === 0 and reading === 1).
     - ?finished(not finished === 0 and finished === 1). 
@@ -185,7 +186,9 @@ Actually this repository related same requirement and function with [notes-app-b
     ```
 
 **6. Deleted book per id.**
+
 **- If id available but no book created, the server have shown status code 404 and sample response body as sample shown below :**
+    
     ```
     {
         "status": "fail",
@@ -203,4 +206,4 @@ Actually this repository related same requirement and function with [notes-app-b
     ```
 
 
-##### **[Demo here](https://drive.google.com/file/d/1LyYTlZmgi_J94ymjUS-4_msz3GcR4bs8/view?usp=sharing) using screen video recorder automated testing by postman.**
+### **[Demo here](https://drive.google.com/file/d/1LyYTlZmgi_J94ymjUS-4_msz3GcR4bs8/view?usp=sharing) using screen video recorder automated testing by postman.**
