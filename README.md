@@ -97,6 +97,7 @@ Actually this repository related same requirement and function with [Notes Backe
     ```
 
 **4. Get shown details book per id.**
+
 **- If no available id, the server shown status code 404 and sample response body as sample shown below :**
     
     ```
